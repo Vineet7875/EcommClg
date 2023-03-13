@@ -1,0 +1,188 @@
+.Works1 {
+    max-width: 100%;
+    text-align: center;
+    /* background-color: black; */
+    /* background-color: #6E6E6E; */
+    background-color: black;
+    color: white;
+    /* padding-bottom: 3rem; */
+}
+
+#Work {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 2.3rem;
+}
+
+#WorkMob {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 2.3rem;
+}
+
+.Works1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    /* color: #baff39; */
+    /* color: white; */
+}
+
+.Works2 {
+    display: grid;
+    grid-gap: 3rem;
+    padding: 1.6rem;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(225px, 1fr);
+    overflow-x: auto;
+}
+
+.Works2 span {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.cardwo {
+    align-items: center;
+    background-color: #fff;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1.5rem;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    height: 10rem;
+    width: 20rem;
+    justify-content: center;
+    padding-top: 2rem;
+    text-align: start;
+    transition: all .5s;
+}
+
+.cardwo:hover {
+    transform: scale(1.1);
+}
+
+.cardwo p {
+    padding: 0 2rem;
+    margin-top: 1rem;
+}
+
+.cardwo h3 {
+    color: #baff39;
+}
+
+.dis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dis span {
+    font-size: 1.7rem;
+}
+
+#Contact {
+    padding-top: 5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#samsung {
+    background-image: url("/Images/Samsung\ \(2\).png");
+    background-size: 19rem;
+}
+
+#oppo {
+    background-image: url("/Images/oppo-green-logo-transparent-0.png");
+    background-size: 18rem;
+}
+
+#redmi {
+    background-image: url("/Images/Xiaomi-logo.jpg");
+}
+
+#vivo {
+    background-image: url("/Images/Vivo.jpg");
+}
+
+#oneplus {
+    background-image: url("/Images/oneplus.png");
+}
+
+#iphone {
+    background-image: url("/Images/apple.png");
+    background-size: 7rem;
+}
+
+
+@media only screen and (max-width :980px) {
+    .Works2 {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-auto-columns: minmax(200px, 1fr);
+    }
+
+    #Work {
+        padding-top: 7rem;
+    }
+
+    .cardwo {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    /* #iphone {
+        background-size: 5rem;
+    }
+
+    #samsung {
+
+        background-size: 14rem;
+    } */
+}
+
+
+@media only screen and (max-width :620px) {
+    .Works2 {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-auto-columns: minmax(150px, 1fr);
+    }
+
+    #Work {
+        padding-top: 8rem;
+    }
+
+    .cardwo {
+        height: 7rem;
+        width: 15rem;
+    }
+
+    input {
+        width: 30rem;
+    }
+
+    #iphone {
+        background-size: 5rem;
+    }
+    #samsung {
+
+        background-size: 14rem;
+    }
+    #oppo {
+        background-size: 13rem;
+    }
+
+}

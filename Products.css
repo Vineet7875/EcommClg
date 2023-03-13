@@ -1,0 +1,120 @@
+.Product1 {
+    max-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    /* background-color:rgba(59,130,246,.5); */
+    background-color: black;
+    color: white;
+}
+
+#Product {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.Product1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    /* color: #baff39; */
+   color:  black;
+ 
+}
+
+.Product2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+}
+
+.cardpro {
+    /* background-color: black; */
+    background-color: white;
+    /* color: white; */
+    color: black;
+    height: 37rem;
+    width: 30rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 2rem;
+    transition: all .5s;
+    padding: 0rem 1rem;
+    position: relative;
+}
+
+#heart {
+    cursor: pointer;
+    position: absolute; /* set the heart image position to absolute */
+    top: 6px; /* set the top position of the heart image to 0 */
+    right: 4px; /* set the right position of the heart image to 0 */
+  }
+
+
+  
+  
+  
+  
+  
+  
+
+.cardpro p{
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.cardpro h3{
+    color: #baff39;
+    font-size: 2rem;
+}
+
+.cardpro #devices{
+    height: 20rem;
+    margin: 1rem;
+}
+
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    background-color:black;
+    /* background-color: white; */
+    color: white;
+    /* color: black; */
+}
+/* button:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: black;
+}  */
+
+.cardpro span{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+@media only screen and (max-width :1130px) {
+    .Product2 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width :720px) {
+    .Product2 {
+        grid-template-columns: auto;
+    }
+}

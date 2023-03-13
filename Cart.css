@@ -1,0 +1,251 @@
+.Cart1 {
+    max-width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgba(59, 130, 246, .5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cart {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.Cart1 h1 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    color: black;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+.Cart2 {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 2rem;
+    column-gap: 5rem;
+    justify-content: space-around;
+}
+
+.cardcart {
+    background-color: black;
+    color: white;
+    height: 19rem;
+    width: 75rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    text-align: start;
+    margin-top: 2rem;
+    position: relative;
+}
+#heart2{
+    cursor: pointer;
+    position: absolute; /* set the heart image position to absolute */
+    top: 16px; /* set the top position of the heart image to 0 */
+    right: 22px; /* set the right position of the heart image to 0 */
+}
+
+.cardcart1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 3rem;
+    padding: 1rem
+}
+
+.cardcart p {
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+.cardcart h3 {
+    color: #baff39;
+    font-size: 2rem;
+}
+
+.cardcart #item {
+    height: 13rem;
+    margin: 2rem;
+}
+
+.btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0rem 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn1 {
+    margin-top: 6rem;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 1.7rem;
+    height: 4.5rem;
+    width: 9.5rem;
+}
+
+.btn1:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+}
+
+.total h2 {
+    font-size: 2.5rem;
+    color: white;
+    background: black;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+@media only screen and (max-width :775px) {
+    .cardcart {
+        background-color: black;
+        /* color: white; */
+        color: white;
+        height: 37rem;
+        width: 40rem;
+        border-radius: 1.5rem;
+        font-size: 1.5rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+        transition: all .5s;
+        padding: 0rem 1rem;
+        font-weight: 600;
+    }
+
+    #price {
+        margin-left: 7rem;
+    }
+
+}
+
+@media only screen and (max-width :560px) {
+    .cardcart {
+        background-color: black;
+        /* color: white; */
+        color: white;
+        height: 29rem;
+        width: 32rem;
+        border-radius: 1.5rem;
+        font-size: 1.5rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2rem;
+        transition: all .5s;
+        padding: 0rem 1rem;
+        font-weight: 600;
+    }
+    #price {
+        margin-left: 7rem;
+    }
+
+    .Cart1 h1 {
+        margin-left: 0rem;
+    }
+
+    .btn1 {
+        font-size: 1.3rem;
+        height: 4rem;
+        width: 7rem;
+    }
+
+    .cardcart #item {
+        height: 11rem;
+    }
+}
+
+@media only screen and (max-width :430px) {
+
+
+    .cardcart {
+        background-color: black;
+        /* color: white; */
+        color: white;
+        height: 30rem;
+        width: 31rem;
+        border-radius: 1.5rem;
+        font-size: 1.5rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:center;
+        text-align: center;
+        padding-top: 2rem;
+        transition: all .5s;
+        padding: 0rem 1rem;
+        font-weight: 600;
+    }
+
+    #price{
+        margin-left: 7rem;
+    }
+    .Cart1 span {
+        font-size: 1.5rem;
+    }
+
+    .Cart1 h1 {
+        margin-left: 0rem;
+    }
+
+    .btn1 {
+        font-size: 1.3rem;
+        height: 4rem;
+        width: 7rem;
+    }
+}
